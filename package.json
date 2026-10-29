@@ -1,0 +1,7 @@
+{
+  "name": "vagus-sync",
+  "private": true,
+  "description": "Speicherdienst für den verschlüsselten Geräteabgleich der App Vagus",
+  "scripts": { "deploy": "wrangler deploy" },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

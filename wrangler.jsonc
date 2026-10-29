@@ -1,0 +1,10 @@
+{
+  // Vagus Sync – Cloudflare Worker mit einem Durable Object als Speicher (Gratis-Tarif)
+  "name": "vagus-sync",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "durable_objects": {
+    "bindings": [{ "name": "STORE", "class_name": "VagusStore" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["VagusStore"] }]
+}
